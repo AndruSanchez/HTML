@@ -2,3 +2,82 @@ h1 {
     color:rebeccapurple;
 }
 
+table {
+    font-family:sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(68, 134, 169, 0.8);
+}
+
+thead {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(68, 134, 169, 0.501);
+    text-align: center;
+    color: rgb(24, 6, 6);
+
+}
+
+nav {
+    height:80px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(68, 134, 169, 0.501);
+    text-align: center;
+    border: double;
+    list-style-type:none;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    border:1px solid #ccc;
+    height: auto;
+    width: 95%;
+    margin:20px 0;
+    padding:0;
+    background-color: rgba(68, 134, 169, 0.501);
+    list-style-type:none;
+}
+
+li {
+    height:auto;
+    width:100%;
+    margin:0;
+    padding: 10px 20px;
+}
+div {
+    margin: 30px 0;
+}
+caption{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 72px;
+}
+a {
+    text-decoration:none;
+    margin:0 10px;
+     padding:10px 15px;
+     transition: 0.3s ease-in-out;
+     border-style: outset;
+}
+
+img {
+    height:auto; width:93%;
+    margin:20px; padding:0;
+    border-style: outset;
+}
+
+main {
+    margin: 70px
+}
+
+
+
